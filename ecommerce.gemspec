@@ -24,7 +24,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'wkhtmltopdf-binary'
   # FIXME Dependency changed to fix countries names in portuguese. Countries names come from the countries gem which in earlier version does not support brazilian portuguese.
   # s.add_dependency 'country_select', '~> 2.4'
-  gem 'country_select', '~> 3.1'
+  s.add_dependency 'country_select', '~> 3.1'
   s.add_dependency 'activemerchant', '~> 1.54'
   s.add_dependency 'stripe'
 
